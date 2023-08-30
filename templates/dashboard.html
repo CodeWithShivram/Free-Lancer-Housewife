@@ -1,0 +1,106 @@
+{% load static %}
+<html>
+<head>
+	<title> Admin Dashboard </title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+{% include 'header.html' %}
+
+</div> <!-- Menu div close -->
+
+<div class="row" style="margin-left:2%;margin-right:2%;">
+  <div class="col-md-3" > 
+
+   
+
+  <ul style="width:100%;list-style: none">
+    <li><button style="width:100%;" type="button" class="btn btn-danger">  {% if user.is_authenticated %}
+      Hello, {{ user.username }} </button></li>
+    
+    <li><a href="{% url 'dashboard' %}"><button style="width:100%;" type="button" class="btn btn-success">Dashboard</button></a></li>
+
+    <li><a href="#"><button type="button" class="btn btn-primary" style="width:100%;">Master Page</button></a></li>
+
+    <li><a href="#"><button type="button" class="btn btn-primary" style="width:100%;">Reports</button></a></li>
+
+    <li><a href="{% url 'home' %}"><button type="button" class="btn btn-danger" style="width:100%;">Logout</button></a></li>
+   
+  </ul>
+  </div>
+  <div class="col-md-9">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Address</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      
+        {% for info in information %}
+        <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        <td>{{ info.name }} </td>
+        <td>{{ info.email }}</td>
+        <td>{{ info.phone }}</td>
+        <td>{{ info.address }}</td>
+        </tr>
+      
+       <!-- {{ forloop.counter }} 
+      used for display sr. numbers in table, it is not table id 
+      if you want to display table id which default created by django 
+      {{ info.id }} it will show table id-->
+
+      {% endfor %}
+
+      
+    
+    </tbody>
+  </table>
+</div>
+</center>
+
+
+
+  {% comment %} {% if information %}
+
+    {% for x in information %}
+
+    {{ x.name }}
+    {{ x.email }}
+
+    {% endfor %}
+
+{% endif %} {% endcomment %}
+
+
+
+
+
+
+{% include 'footer.html' %}
+
+</div> <!-- container div close -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+
+
+
+</body>
+</html>	
