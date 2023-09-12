@@ -59,10 +59,10 @@ bash
 - Integrated payment processing for secure transactions.
 - Assisted in deploying the project to a production server.
 
-##License
+## License
   -This project is licensed under the MIT License - see the ![LICENSE](https://github.com/CodeWithShivram/Free-Lancer-Housewife/blob/main/LICENSE) file for details.
 
-##Contact
+## Contact
   -For any questions or inquiries, please contact marwadishivram@gmail.com.
 
 **Thank you for your support and contributions!**
