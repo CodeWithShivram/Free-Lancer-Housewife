@@ -52,12 +52,12 @@ bash
 ## Contributions
 **During my internship, I had the opportunity to work on both front-end and back-end development, making me a full-stack developer for this project. Here are some of the key contributions I made:**
 
-_-Implemented user authentication and profile management.
--Designed and developed the service listings and search functionalities.
--Created the messaging system for real-time communication.
--Worked on the reviews and ratings feature.
--Integrated payment processing for secure transactions.
--Assisted in deploying the project to a production server._
+_-Implemented user authentication and profile management._
+_-Designed and developed the service listings and search functionalities._
+_-Created the messaging system for real-time communication._
+_-Worked on the reviews and ratings feature._
+_-Integrated payment processing for secure transactions._
+_-Assisted in deploying the project to a production server._
 
 ##License
   -This project is licensed under the MIT License - see the ![LICENSE](https://github.com/CodeWithShivram/Free-Lancer-Housewife/blob/main/LICENSE) file for details.
@@ -65,7 +65,7 @@ _-Implemented user authentication and profile management.
 ##Contact
   -For any questions or inquiries, please contact marwadishivram@gmail.com.
 
-#Thank you for your support and contributions!
+**Thank you for your support and contributions!**
 
 
 
