@@ -50,14 +50,14 @@ bash
 	Access the application in your web browser at http://localhost:8000.
 
 ##Contributions
-   During my internship, I had the opportunity to work on both front-end and back-end development, making me a full-stack developer for this project. Here are some of the key contributions I made:
+  	During my internship, I had the opportunity to work on both front-end and back-end development, making me a full-stack developer for this project. Here are some of the key contributions I made:
 
--Implemented user authentication and profile management.
--Designed and developed the service listings and search functionalities.
--Created the messaging system for real-time communication.
--Worked on the reviews and ratings feature.
--Integrated payment processing for secure transactions.
--Assisted in deploying the project to a production server.
+    	-Implemented user authentication and profile management.
+	-Designed and developed the service listings and search functionalities.
+	-Created the messaging system for real-time communication.
+	-Worked on the reviews and ratings feature.
+	-Integrated payment processing for secure transactions.
+	-Assisted in deploying the project to a production server.
 
 ##License
   -This project is licensed under the MIT License - see the ![LICENSE](https://github.com/CodeWithShivram/Free-Lancer-Housewife/blob/main/LICENSE) file for details.
